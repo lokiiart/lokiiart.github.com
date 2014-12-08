@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>{{ page.title }}</title>
+<title>问卷准备</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="author" content="Loki iArt-工匠日记">
 <meta name="keywords" content="keywords">
@@ -13,13 +13,13 @@
 <meta name="application-name" content="BootstrapiArt">
 
 <!-- Le styles -->
-<link media="all" rel="stylesheet" href="{{ site.url }}/diary/templates/bootstrap/css/bootstrap.css" type="text/css" />
+<link media="all" rel="stylesheet" href="/diary/templates/bootstrap/css/bootstrap.css" type="text/css" />
 <!--[if lte IE 6]>
 <!-- bsie css 补丁文件 -->
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/diary/templates/bootstrap/css/bootstrap-ie6.css">
+<link rel="stylesheet" type="text/css" href="/diary/templates/bootstrap/css/bootstrap-ie6.css">
 
 <!-- bsie 额外的 css 补丁文件 -->
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/diary/templates/bootstrap/css/ie.css">
+<link rel="stylesheet" type="text/css" href="/diary/templates/bootstrap/css/ie.css">
 <![endif]-->
 <style>
 body{
@@ -36,10 +36,10 @@ bottom: 20px;
 right: 20px;
 height: 38px;  /* Height of image */
 width: 38px; /* Width of image */
-background: url("{{ site.url }}/diary/templates/bootstrap/img/top.png") no-repeat;
+background: url("/diary/templates/bootstrap/img/top.png") no-repeat;
 }
 </style>
-<link href="{{ site.url }}/diary/templates/bootstrap/css/prettify.css" rel="stylesheet">
+<link href="/diary/templates/bootstrap/css/prettify.css" rel="stylesheet">
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -64,9 +64,28 @@ var _hmt = _hmt || [];
 		<div class="container">
 				<div class="row">
 						<div class="span12">
-                            <h1>{{ page.title }}</h1>
-{{ page.time }}
-								{{ content }}
+                            <h1>问卷准备</h1>
+
+								<p>1.你认为你们学校最有前途的专业是什么？</p>
+
+<p>2.你们学校哪个专业美女最多？</p>
+
+<p>3.你最喜欢你们学校哪一点？为什么？</p>
+
+<p>4.你现在月薪多少？</p>
+
+<p>5.出来工作多久了？</p>
+
+<p>6.你觉得你们学校好不好？为什么？</p>
+
+<p>7.高考填报志愿的时候选择这所学校有什么特别的理由么？</p>
+
+<p>8.你在图书馆看书多么？</p>
+
+<p>9.你觉得你在大学的学习生活对你出来工作的帮助大么？有帮助么？</p>
+
+<p>10.你觉得你大学生活里最有意义的事情是什么？</p>
+
 						</div>
 				</div>
                 <div class="row">
@@ -76,21 +95,33 @@ var _hmt = _hmt || [];
                 </div>
 				<div class="row">
 						<div class="span12">
-								{% include comments.html %}
+								<div class="ds-thread" data-title="问卷准备 - "></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"iartisan"};
+(function() {
+var ds = document.createElement('script');
+ds.type = 'text/javascript';ds.async = true;
+ds.src = 'http://static.duoshuo.com/embed.js';
+ds.charset = 'UTF-8';
+(document.getElementsByTagName('head')[0] 
+|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+
 						</div>
 				</div>
 		</div>
 
 
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="{{ site.url }}/diary/templates/bootstrap/js/jquery.unveil.min.js"></script>
-<script src="{{ site.url }}/diary/templates/bootstrap/js/bootstrap.min.js"></script>
+<script src="/diary/templates/bootstrap/js/jquery.unveil.min.js"></script>
+<script src="/diary/templates/bootstrap/js/bootstrap.min.js"></script>
 <!--[if lte IE 6]>
 <!-- bsie js 补丁只在IE6中才执行 -->
-<script type="text/javascript" src="{{ site.url }}/diary/templates/bootstrap/js/bootstrap-ie.js"></script>
+<script type="text/javascript" src="/diary/templates/bootstrap/js/bootstrap-ie.js"></script>
 <![endif]-->
-<script src="{{ site.url }}/diary/templates/bootstrap/js/prettify.js"></script>
-<script src="{{ site.url }}/diary/templates/bootstrap/js/jquery.scrollUp.min.js"></script>
+<script src="/diary/templates/bootstrap/js/prettify.js"></script>
+<script src="/diary/templates/bootstrap/js/jquery.scrollUp.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 						$("img.lazy").unveil();
@@ -107,6 +138,6 @@ activeOverlay: false
 
 						});
 </script>
-<script type="text/javascript" src="{{ site.url }}/diary/templates/bootstrap/js/holder.js"></script>
+<script type="text/javascript" src="/diary/templates/bootstrap/js/holder.js"></script>
 </body>
 </html>

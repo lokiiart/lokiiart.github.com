@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>{{ page.title }}</title>
+<title>无聊的开始</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="author" content="Loki iArt-工匠日记">
 <meta name="keywords" content="keywords">
@@ -13,13 +13,13 @@
 <meta name="application-name" content="BootstrapiArt">
 
 <!-- Le styles -->
-<link media="all" rel="stylesheet" href="{{ site.url }}/diary/templates/bootstrap/css/bootstrap.css" type="text/css" />
+<link media="all" rel="stylesheet" href="/diary/templates/bootstrap/css/bootstrap.css" type="text/css" />
 <!--[if lte IE 6]>
 <!-- bsie css 补丁文件 -->
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/diary/templates/bootstrap/css/bootstrap-ie6.css">
+<link rel="stylesheet" type="text/css" href="/diary/templates/bootstrap/css/bootstrap-ie6.css">
 
 <!-- bsie 额外的 css 补丁文件 -->
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/diary/templates/bootstrap/css/ie.css">
+<link rel="stylesheet" type="text/css" href="/diary/templates/bootstrap/css/ie.css">
 <![endif]-->
 <style>
 body{
@@ -36,10 +36,10 @@ bottom: 20px;
 right: 20px;
 height: 38px;  /* Height of image */
 width: 38px; /* Width of image */
-background: url("{{ site.url }}/diary/templates/bootstrap/img/top.png") no-repeat;
+background: url("/diary/templates/bootstrap/img/top.png") no-repeat;
 }
 </style>
-<link href="{{ site.url }}/diary/templates/bootstrap/css/prettify.css" rel="stylesheet">
+<link href="/diary/templates/bootstrap/css/prettify.css" rel="stylesheet">
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -64,9 +64,18 @@ var _hmt = _hmt || [];
 		<div class="container">
 				<div class="row">
 						<div class="span12">
-                            <h1>{{ page.title }}</h1>
-{{ page.time }}
-								{{ content }}
+                            <h1>无聊的开始</h1>
+
+								<p>本来以为今天会很激情，结果什么事情都没做。被钱的事情卡得要死，过段时间还要去上海玩。最近又不想写程序，哪里来钱哦。</p>
+
+<p>米离开将近半个月了,我的计划从5月开始正式开始。</p>
+
+<p>年少的梦想啊，浪迹天涯啊，不知道为什么，心里并没有特别高兴。也许是过柴米油盐的日子习惯了。其实怎么说，有时候希望米是那种可以陪我一起闯荡的女子，这当然无论如何都没办法实现。我本也不抱希望她会为我变成任何样子。我也未曾为她做出什么根本性的改变。</p>
+
+<p>本来应该有一大堆畅想可以聊，却意外地没有说话的欲望。</p>
+
+<p>今天先这样。</p>
+
 						</div>
 				</div>
                 <div class="row">
@@ -76,21 +85,33 @@ var _hmt = _hmt || [];
                 </div>
 				<div class="row">
 						<div class="span12">
-								{% include comments.html %}
+								<div class="ds-thread" data-title="无聊的开始 - "></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"iartisan"};
+(function() {
+var ds = document.createElement('script');
+ds.type = 'text/javascript';ds.async = true;
+ds.src = 'http://static.duoshuo.com/embed.js';
+ds.charset = 'UTF-8';
+(document.getElementsByTagName('head')[0] 
+|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+
 						</div>
 				</div>
 		</div>
 
 
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="{{ site.url }}/diary/templates/bootstrap/js/jquery.unveil.min.js"></script>
-<script src="{{ site.url }}/diary/templates/bootstrap/js/bootstrap.min.js"></script>
+<script src="/diary/templates/bootstrap/js/jquery.unveil.min.js"></script>
+<script src="/diary/templates/bootstrap/js/bootstrap.min.js"></script>
 <!--[if lte IE 6]>
 <!-- bsie js 补丁只在IE6中才执行 -->
-<script type="text/javascript" src="{{ site.url }}/diary/templates/bootstrap/js/bootstrap-ie.js"></script>
+<script type="text/javascript" src="/diary/templates/bootstrap/js/bootstrap-ie.js"></script>
 <![endif]-->
-<script src="{{ site.url }}/diary/templates/bootstrap/js/prettify.js"></script>
-<script src="{{ site.url }}/diary/templates/bootstrap/js/jquery.scrollUp.min.js"></script>
+<script src="/diary/templates/bootstrap/js/prettify.js"></script>
+<script src="/diary/templates/bootstrap/js/jquery.scrollUp.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 						$("img.lazy").unveil();
@@ -107,6 +128,6 @@ activeOverlay: false
 
 						});
 </script>
-<script type="text/javascript" src="{{ site.url }}/diary/templates/bootstrap/js/holder.js"></script>
+<script type="text/javascript" src="/diary/templates/bootstrap/js/holder.js"></script>
 </body>
 </html>
